@@ -10,4 +10,4 @@ In order for this package to work you must have your Laravel login system in pla
 4. Open "config > app.php" and add "App\Providers\TourApprovalProvider::class", into providers array.
 5. Finaly run "php artisan migrate" to create blogs and comments tables in your database.
 
-### Your package is ready
+### Done!
