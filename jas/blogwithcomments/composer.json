@@ -1,0 +1,26 @@
+{
+    "name": "jas/blogwithcomments",
+    "description": "Blog system for Laravel Framework with a commenting feature",
+    "type": "library",
+    "require": {},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "devjas",
+            "email": "30835414+devjas@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload" : {
+        "psr-4": {
+            "Jas\\BlogWithComments\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jas\\BlogWithComments\\BlogServiceProvider"
+            ]
+        }
+    }
+}
