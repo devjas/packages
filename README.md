@@ -5,7 +5,7 @@ In order for this package to work you must have your Laravel login system in pla
 
 ### How to install
 1. Download packages folder into the root of your Laravel project
-2. Open the root composer.json, add "Jas\\\BlogWithComments\\\\": "packages/jas/blogwithcomments/src/" under autoload > psr-4 . 
+2. Open the root composer.json, add "Jas\\\BlogWithComments\\\\": "packages/jas/blogwithcomments/src/" inside of autoload > psr-4 . 
 3. Run "php artisan dump-autoload" command.
 4. Open "config > app.php" and add "App\Providers\TourApprovalProvider::class", into providers array.
 5. Finaly run "php artisan migrate" to create blogs and comments tables in your database.
