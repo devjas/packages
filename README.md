@@ -1,7 +1,7 @@
 # laravel-blog-package
  Blog Package for Laravel 8/9
 
-In order for this package to work you must have your Laravel login system in place since you can create blog posts only when you are logged into your application.
+In order for this package to work properly you must have your Laravel login system in place since you can create blog posts only when you are logged into your application.
 
 ### How to install
 1. Download packages folder into the root of your Laravel project
