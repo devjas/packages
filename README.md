@@ -5,9 +5,9 @@ In order for this package to work properly you must have your Laravel login syst
 
 ### How to install
 1. Download packages folder into the root of your Laravel project.
-2. Open your root composer.json, add "Jas\\\BlogWithComments\\\\": "packages/jas/blogwithcomments/src/" into autoload > psr-4 . 
-3. Run composer dump-autoload command.
-4. Open "config > app.php". Add Jas\BlogWithComments\BlogServiceProvider::class, into providers array.
+2. Open your root composer.json, add <code>"Jas\\\BlogWithComments\\\\": "packages/jas/blogwithcomments/src/"</code> into autoload > psr-4 . 
+3. Run <code>composer dump-autoload</code> command.
+4. Open "config > app.php". Add <code>Jas\BlogWithComments\BlogServiceProvider::class,</code> into providers array.
 5. Finally, run the <code>php artisan migrate</code> command to create blogs and comments tables in your database.
 
 #### Done!
