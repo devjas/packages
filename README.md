@@ -1,4 +1,4 @@
-# laravel-blog-package
+# Blog Package 
  Blog Package for Laravel 8/9
 
 In order for this package to work properly you must have your Laravel login system in place since you can create blog posts only when you are logged into your application.
@@ -10,4 +10,4 @@ In order for this package to work properly you must have your Laravel login syst
 4. Open "config > app.php". Add Jas\BlogWithComments\BlogServiceProvider::class, into providers array.
 5. Finaly run php artisan migrate to create blogs and comments tables in your database.
 
-### Done!
+#### Done!
